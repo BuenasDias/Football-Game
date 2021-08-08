@@ -3,13 +3,10 @@ package com.example.footballgame.collection;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.pm.ActivityInfo;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
@@ -17,8 +14,6 @@ import android.view.animation.AnimationUtils;
 
 import com.example.footballgame.collection.databinding.ActivityMainBinding;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
